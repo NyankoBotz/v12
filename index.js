@@ -53,7 +53,7 @@ isSelf = false
 isPublic = true
 
 //JANGAN DI GANTI
-fakeyoi = ["Lexxy Official"]
+fakeyoi = ["NyankoTod"]
 api = ["https://myselfff.herokuapp.com/docs"]
 simbol = ["•"]
 const botName = setting.BotName
@@ -697,27 +697,27 @@ break
 case 'gfx1':
 case 'gfx2':
 case 'gfx5':
-if (args.length ==0) return reply(`Text Nya Mana? Contohnya\n${prefix+command} Lexxy`)
+if (args.length ==0) return reply(`Text Nya Mana? Contohnya\n${prefix+command} NyankoTod`)
 sticWait(from)
 ini_txt = args.join(" ")
 gfx = await getBuffer(`https://hardianto.xyz/api/bot/${command}?apikey=hardianto&nama=${ini_txt}`)
-Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo By Lexxy Officia*'})
+Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo by Nyanko*'})
 break
 case 'gfx3':
 case 'gfx4':
-if (args.length ==0) return reply(`Text Nya Mana? Contohnya\n${prefix+command} Lexxy OFC`)
+if (args.length ==0) return reply(`Text Nya Mana? Contohnya\n${prefix+command} Nyankobotz`)
 sticWait(from)
 ini_txt1 = args[0]
 ini_txt1 = args[1]
 gfx = await getBuffer(`https://hardianto.xyz/api/bot/${command}?apikey=hardianto&text1=${ini_txt1}&text2=${ini_txt2}`)
-Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo By Lexxy Officia*'})
+Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo By Nyankotod*'})
 break
 case 'gfx6':
-if (args.length ==0) return reply(`Text Nya Mana? Contohnya\n${prefix+command} Lexxy`)
+if (args.length ==0) return reply(`Text Nya Mana? Contohnya\n${prefix+command} Nyankobotz`)
 sticWait(from)
 ini_txt = args.join(" ")
 gfx = await getBuffer(`https://hardianto.xyz/api/bot/gura?apikey=hardianto&nama=${ini_txt}`)
-Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo By Lexxy Officia*'})
+Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo By Nyankotod*'})
 break
 case 'menu':
 const { wa_version, mcc, mnc, os_version, device_manufacturer, device_model } = Lexxy.user.phone
@@ -726,12 +726,12 @@ ros = await Lexxy.prepareMessageFromContent(from,{
 "title": '◩ 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤',
 "description": `□» 𝐍𝐚𝐦𝐞 : *${botName}*
 □» 𝐎𝐰𝐧𝐞𝐫 : *${ownerName}*
-□» 𝐀𝐮𝐭𝐡𝐨𝐫 : *Lexxy Official*
+□» 𝐀𝐮𝐭𝐡𝐨𝐫 : *NyankoBotz*
 □» 𝐏𝐫𝐞𝐟𝐢𝐱 : *Multi Prefix*
 □» 𝐋𝐢𝐛 : *Baileys*
 □» 𝐓𝐲𝐩𝐞 : *NodeJS*
 □» 𝐌𝐨𝐝𝐞 : *${isPublic? "Public":"Self"}*
-□» 𝐑𝐚𝐦 : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+□» 𝐑𝐚𝐦 : *32.56GB/128GB*
 □» 𝐕𝐞𝐫𝐬𝐢 𝐎𝐒 : *${os_version}*
 □» 𝐕𝐞𝐫𝐬𝐢 𝐇𝐏 : *${device_model}*
 □» 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 : *${wa_version}*
